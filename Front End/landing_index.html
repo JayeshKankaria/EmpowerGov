@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+  <meta viewport="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>EmpowerGov - Landing Page| WebCrusaders</title>
+  <link rel="stylesheet" href="./landing_style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta viewport="width=device-width, initial-scale=1">
+    <title> Landing Page | WebCrusaders </title>
+    <link rel="stylesheet" href="./landing_style.css">
+
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+
+    <head>
+      <title>Parallax Scrolling Landing Page </title>
+    </head>
+
+    <body>
+      <header id="header">
+        <a href="#" class="logo">EmpowerGov</a>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </header>
+
+      <Section>
+        <h2 id="text"><span>It's time to</span><br>EmpowerGov</h2>
+
+        <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png"
+          id="bird1">
+        <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png"
+          id="bird2">
+        <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png"
+          id="forest">
+
+        <a href="login_index.html" id="btn">DiveIn</a>
+
+        <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png"
+          id="rocks">
+        <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png"
+          id="water">
+      </Section>
+
+      <div class="sec" id="about">
+        <h2>About EmpowerGov</h2>
+        <p>At EmpowerGov, we are dedicated to empowering businesses and individuals by providing a uniform platform for
+          accessing government subsidies and promoting Micro, Small, and Medium Enterprises (MSMEs). Our mission is to
+          bridge the gap between government initiatives and beneficiaries, making it easier for businesses to access the
+          support they need to thrive and contribute to economic growth.
+          <br><br>
+          We firmly believe that MSMEs are the backbone of any economy. These businesses play a critical role in
+          generating employment, driving innovation, and contributing to economic development. At EmpowerGov, we are
+          committed to promoting and supporting MSMEs by creating a conducive environment for growth. Through our
+          platform, we provide MSMEs with enhanced visibility, networking opportunities, and resources to help them
+          succeed in today's competitive market.
+        </p><br><br>
+        <h2>Key Features and Benefits</h2>
+
+        <p>Centralized Subsidy Access</p>
+        <p>Simplified Application Process</p>
+        <p>Timely Notifications</p>
+        <p>MSME Support and Networking</p>
+        <p>Educational Resources</p>
+        <p>Collaboration and Partnerships</p>
+
+        <h2>Join EmpowerGov Today</h2>
+        <p>Whether you are an MSME looking for growth opportunities or an individual seeking government support,
+          EmpowerGov is your go-to platform for accessing subsidies, grants, and resources. Join our community today and
+          experience the convenience, transparency, and empowerment that our platform brings to government subsidies and
+          the MSME sector. Together, let's build a stronger, more resilient business ecosystem.</p>
+        <div id="license">
+          <h2>License</h2>
+          <p>The content of this website, including text, graphics, images, and other materials, is protected by
+            applicable intellectual property laws. All rights are reserved. Unauthorized reproduction or distribution of
+            any content on this website is strictly prohibited.</p>
+          <p>However, please note that as part of our special partnership with the government, the information and
+            services related to government subsidies and programs provided on this website are made available under a
+            separate agreement between EmpowerGov and the government authorities. The usage and access to government
+            subsidy information are subject to the terms and conditions set forth by the government entities involved.
+          </p>
+        </div>
+      </div>
+      <script>
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll', function () {
+          let value = window.scrollY;
+
+          text.style.top = 50 + value * -.1 + '%';
+          bird2.style.top = value * -1.5 + 'px';
+          bird2.style.left = value * 2 + 'px';
+          bird1.style.top = value * -1.5 + 'px';
+          bird1.style.left = value * -5 + 'px';
+          btn.style.marginTop = value * 1.5 + 'px';
+          rocks.style.top = value * -.12 + 'px';
+          forest.style.top = value * .25 + 'px';
+          header.style.top = value * .5 + 'px';
+        })
+      </script>
+
+    </body>
+    <!-- partial -->
+    <script src="./landing_script.js"></script>
+
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src="./landing_script.js"></script>
+
+</body>
+
+</html>
