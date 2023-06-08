@@ -1,2 +1,2 @@
 # EmpowerGov
-YantraHack Problem Theme Reduce Inequality
+||YantraHack|| Problem Theme: Reduce Inequality
