@@ -1,0 +1,85 @@
+[{
+  "_id": 1,
+  "name": "Ganesh Apte",
+  "adhaar": {
+    "$numberLong": "908912328932"
+  },
+  "pan": {
+    "$numberLong": "8912378324"
+  },
+  "phone": {
+    "$numberLong": "9089781231"
+  },
+  "dob": {
+    "$date": "1995-10-15T18:30:00.000Z"
+  },
+  "salary": 200000
+},
+{
+  "_id": 2,
+  "name": "Abhigyan Tripathi",
+  "adhaar": {
+    "$numberLong": "908912328933"
+  },
+  "pan": {
+    "$numberLong": "8912378325"
+  },
+  "phone": {
+    "$numberLong": "7890123981"
+  },
+  "dob": {
+    "$date": "1993-08-24T18:30:00.000Z"
+  },
+  "salary": 400000
+},
+{
+  "_id": 3,
+  "name": "Kritak Patel",
+  "adhaar": {
+    "$numberLong": "908912328934"
+  },
+  "pan": {
+    "$numberLong": "8912378326"
+  },
+  "phone": {
+    "$numberLong": "9012123981"
+  },
+  "dob": {
+    "$date": "1996-07-05T18:30:00.000Z"
+  },
+  "salary": 800000
+},
+{
+  "_id": 4,
+  "name": "Laurence Dutta",
+  "adhaar": {
+    "$numberLong": "908912328935"
+  },
+  "pan": {
+    "$numberLong": "8912378327"
+  },
+  "phone": {
+    "$numberLong": "9978123981"
+  },
+  "dob": {
+    "$date": "1999-10-09T18:30:00.000Z"
+  },
+  "salary": 1400000
+},
+{
+  "_id": 5,
+  "name": "Sanskriti Sen",
+  "adhaar": {
+    "$numberLong": "908912328936"
+  },
+  "pan": {
+    "$numberLong": "8912378328"
+  },
+  "phone": {
+    "$numberLong": "9078323981"
+  },
+  "dob": {
+    "$date": "1994-01-16T18:30:00.000Z"
+  },
+  "salary": 1900000
+}]
