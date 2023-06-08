@@ -118,6 +118,10 @@ body {
   align-items: center;
   pointer-events: none;
 }
+.WorkingLink {
+  text-decoration: none;
+  color: #fff;
+}
 @media (min-width: 460px) {
   .slider__nav {
     justify-content: flex-end;
